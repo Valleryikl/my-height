@@ -1,0 +1,300 @@
+@media (max-device-width:1023px) {
+    .header__nav-item {
+        font-size: 20px;
+    }
+    .header__nav-list {
+        gap: 40px;
+    }
+    .header__nav-logo {
+        margin-right: 100px;
+        margin-left: 120px;
+    }
+    .header__main {
+        margin-left: 120px;
+        width: 650px;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+    .header__main-title {
+        font-size: 65px;
+    }
+    .header__main-text {
+        font-size: 22px;
+        width: 420px;
+    }
+    .header__link-appbtn {
+        padding: 23px 55px;
+        font-size: 20px;
+    }
+    .header__link-app img {
+        width: 100px;
+    }
+    .product-pictures {
+        width: 500px;
+    }
+    .main__catalog-row {
+        flex-wrap: wrap;
+    }
+    .subtitle {
+        font-size: 25px;
+    }
+    .subtitle2 {
+        font-size: 25px;
+    }
+    .product h5 {
+        font-size: 20px;
+    }
+    .product p {
+        font-size: 20px;
+    }
+    .brands__item {
+        width: 200px;
+    }
+    .brands__categories-group {
+        gap: 50px;
+    }
+    .main__information-item {
+        width: 300px;
+        margin: 50px 70px;
+    }
+    .main__information-subtitle {
+        font-size: 22px;
+    }
+    .main__discription {
+        font-size: 18px;
+    }
+    .guitarist-foto {
+        width: 400px;
+    }
+    .professional__guitarist-inf {
+        width: 580px;
+        gap: 10px;
+    }
+    .professional__guitarist-text {
+        font-size: 30px;
+    }
+    .namme__guitarist {
+        font-size: 30px;
+    }
+    .profession {
+        font-size: 25px;
+    }
+    .footer__pages-title {
+        font-size: 25px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .footer__folow-link {
+        width: 45px;
+    }
+}
+@media (max-device-width:767px) {
+    
+    .header {
+        background: none;
+    }
+    .header__nav {
+        padding-top: 60px;
+        padding-left: 0;
+        justify-content: center;
+    }
+    .header__nav-logo {
+        display: flex;
+        gap: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .header__nav-logo img {
+        width: 60px;
+    }
+    .header__nav-logo p {
+        font-size: 70px;
+        margin-right: 40px;
+    }
+    .header__nav-item {
+        font-size: 50px;
+    }
+    .header__nav-list {
+        gap: 30px;
+    }
+    .header__main {
+        margin-left: 100px;
+        width: 1000px;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+    .header__main-title {
+        font-size: 100px;
+    }
+    .header__main-text {
+        font-size: 40px;
+        width: 800px;
+    }
+    .header__link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__link-appbtn {
+        padding: 35px 70px;
+        font-size: 40px;
+        border-radius: 70px;
+    }
+    .header__link-app img {
+        width: 300px;
+    }
+    .main__conteiner-title {
+        font-size: 80px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    .main__catalog {
+        margin: 0;
+    }
+    .product-pictures {
+        width: 1000px;
+    }
+    .main__catalog-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subtitle {
+        font-size: 40px;
+    }
+    .subtitle2 {
+        font-size: 40px;
+    }
+    .product h5 {
+        font-size: 40px;
+    }
+    .product p {
+        font-size: 40px;
+    }
+    .guitar__categories {
+        margin: 100px 30px 50px;
+    }
+    .guitar__categories-row {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .guitar__categories-item {
+        width: 520px;
+    }
+    .guitar__categories-item p {
+        font-size: 70px;
+        margin-top: -120px;
+    }
+    .brands__categories {
+        margin: 100px 0px;
+    }
+    .brands__categories-group {
+        gap: 20px;
+        width: 1400px;
+    }
+    .brands__categories-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .brands__item {
+        width: 400px;
+    }
+    .main__information-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main__information-item {
+        width: 700px;
+        text-align: center;
+        margin: 50px 100px;
+    }
+    .icn {
+        width: 200px;
+        border-radius: 60px;
+        margin-bottom: 35px;
+    }
+    .main__information-subtitle {
+        font-size: 50px;
+    }
+    .main__discription {
+        font-size: 45px;
+    }
+    .about__group {
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .guitarist-foto {
+        width: 800px;
+    }
+    .professional__guitarist-inf {
+        width: 1200px;
+        gap: 10px;
+    }
+    .professional__guitarist-text {
+        font-size: 50px;
+    }
+    .namme__guitarist {
+        font-size: 50px;
+    }
+    .profession {
+        font-size: 40px;
+    }
+    .down__app {
+        flex-direction: column;
+        align-items: center;
+    }
+    .down__app-group1 {
+        width: 80%;
+    }
+    .down__app-title {
+        font-size: 90px;
+    }
+    .get__down-app {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .app__store {
+        width: 350px;
+    }
+    .app__store:not(:last-child) {
+        width: 390px;
+    }
+    .down__app-group2 {
+        display: none;
+    }
+    .footer__information {
+        flex-wrap: wrap;
+        gap: 150px;
+        padding: 100px 80px 90px;
+    }
+    .footer__logo h3 {
+        font-size: 100px;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+    
+    .footer__logo img {
+        width: 85px;
+    }   
+    .footer__pages-title {
+        font-size: 70px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .text {
+        font-size: 65px;
+    }
+    .footer__folow-link {
+        width: 120px;
+    }
+    .footer__cnt img {
+        width: 60px;
+        margin-right: 15px;
+    }
+    .created-age {
+        font-size: 60px;
+    }
+}

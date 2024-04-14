@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+.header {
+    background: #F9F6F5;
+}
+.header__nav{
+    padding: 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.logo {
+    color: #222;
+    font-style: italic;
+    text-decoration-line: underline;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    transition: all ease-in .2s;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.header__nav-menu {
+    display: flex;
+    gap: 50px;
+}
+.header__nav-link {
+    color: #222;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: all ease-in .15s;
+}
+.header__nav-link:hover {
+    color: #929292;
+}
+.header__nav-user {
+    display: flex;
+    gap: 25px;
+}
+.header__nav-icn {
+    color: #222;
+    transition: all ease-in .15s;
+}
+.header__nav-icn:hover {
+    color: #929292;
+    cursor: pointer;
+}
+/* Menu */
+.c-hamburger {
+    display: block;
+    overflow: hidden;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: #F9F6F5;
+    border-radius: 10px;
+    font-size: 0;
+    color: rgb(0, 0, 0);
+}
+.c-hamburger:focus {
+    outline: none;
+    transition: ease-in;
+    transition-duration: .8s;
+}
+.c-hamburger.is-active {
+    background-color: #614642;
+    color: white;
+}
+#menu {
+    width: 30px;
+    font-size: 0;
+    background-color: inherit;
+    z-index: 69;
+    transition: all ease-in .8s;
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+}
+#menu.nav-active {
+    width: 150px;
+    font-size: 20px;
+    transition: all ease-in .8s;
+    background-color: #614642;
+    border-radius: 10px 0 10px 10px;
+}
+.nav-active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+    gap: 5px;
+}
+.menu__linck {
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
+.menu__linck:hover {
+    color: white;
+}
+/* Menu */
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 5%;
+}
+.header__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+.title {
+    color: #000;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 70px;
+}
+.header__main-subtitle {
+    width: 510px;
+}
+.subtitle {
+    color: #555;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.search {
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+.search-input {
+    width: 270px;
+    height: 40px;
+    border: none;
+    padding: 0 37px 0px 15px;
+}
+.search-btn {
+    width: 30px;
+    height: 30px;
+    background: #402F2C;
+    position: absolute;
+    left: 235px;
+    top: 5px;
+    color: white;
+    transition: all ease-in-out .2s;
+}
+.search-btn:hover {
+    background-color: #614642;
+}
+.regular-btn {
+    align-items: flex-start;
+    background: #402F2C;
+    color: #FFF;
+    width: 230px;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: all ease-in-out .2s;
+}
+.regular-btn:hover {
+    background-color: #614642;
+    transform: scale(1.03);
+}
+/* Slider */
+.slaid {
+    margin: 10% 0;
+}
+.slider {
+    width: 796px;
+    height: 609px;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+.slider-line {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    right: 0;
+    transition: all ease-in-out 1.2s;
+}
+.slider-line img {
+    height: 100%;
+    width: 100%;
+}
+.slider__panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 145px;
+    height: 138px;
+    left: 0%;
+    bottom: 0%;
+    border-radius: 16px;
+    background: #F9F6F5;
+    z-index: 69;
+}
+.slider__panel-btn {
+    display: flex;
+    gap: 20px;
+}
+.slider__btn {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 5px;
+    transition: all ease-in-out .18s;
+}
+.slider__btn:hover {
+    transform: scale(1.2);
+}
+/* Slider */
+/* Main */ 
+.brends {
+    margin: 7%;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+.brand__pictures {
+    width: 130px;
+    cursor: pointer;
+}
+.popular__product {
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.popular__product-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.popular__product-subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+.popular__product-subtitle .subtitle {
+    width: 57%;
+}
+.more-product {
+    color: #222;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 20px;
+}
+.more-product img {
+    width: 27px;
+}
+.more-product:hover {
+    text-decoration-line: underline;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+.product__item {
+    width: 47%;
+    border: 1px solid rgba(104, 90, 82, 0.19);
+}
+.product__item-picture {
+    width: 100%;
+}
+.product__item-inf {
+    padding: 3% 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product__item-title {
+    color: #222;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.shopp-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-group {
+    display: flex;
+    gap: 15px;
+}
+.shopp-btn {
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.shopp-btn.one {
+    background: #402F2C;
+    color: #FFF;
+    transition: all ease-in .2s;
+}
+.shopp-btn.one:hover {
+    background-color: #614642;
+}
+.shopp-btn.two {
+    border: 1px solid rgba(104, 90, 82, 0.46);
+    transition: all ease-in .2s;
+}
+.shopp-btn.two:hover {
+    background-color: rgb(241, 241, 241);
+}
+.price {
+    color: #222;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 32px;
+}

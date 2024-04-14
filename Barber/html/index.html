@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/media.css" rel="stylesheet">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="logo">
+                <img class="logo-picture" src="../icon/logo.svg" alt="logo">
+                <div class="name-logo">arber</div>
+            </div>
+            <div class="header__nav-user">
+                <a href="#popup"><img class="user" src="../icon/Profile.svg" alt="icn profile"></a>
+                <img class="notification" src="../icon/Notification.svg" alt="icn notification">
+                <button class="btn">Appointment</button>
+            </div>
+            <div id="menu">
+                <button class="c-hamburger c-hamburger-line">
+                    <span></span>
+                </button>
+                <div class="nav-active">
+                    <ul>
+                        <li>Home</li>
+                        <li>History</li>
+                        <li>Information</li>
+                        <li>Service</li>
+                        <li>Gallary</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__main">
+            <div class="header__main-text">
+                <h1 class="header__main-title"><span class="color-yelow">Hairstyle</span> Reflects The Personality Inside You</h1>
+                <p class="header__main-subtitle">It is a long established fact that a reader
+                will be distracted by the readable content of a page when looking at.</p>
+                <button class="btn">Get Started</button>
+            </div>
+            <img class="header__main-img" src="../img/header-main.svg" alt="">
+        </div>
+    </header>
+    <div id="popup" class="popup">
+        <a href="#menu" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a class="popup__close close__popup" href="#menu">x</a>
+                <div class="popup__title">Do you want to cut something?</div>
+                <form class="popup__form">
+                    <label class="popup__text">Name:</label>
+                    <input type="text" placeholder="Your name">
+                    <label class="popup__text">Email:</label>
+                    <input type="email" placeholder="Your email">
+                    <div class="popup__btngrup">
+                        <button class="popup-btn" type="submit">Submit</button>
+                        <button class="popup-btn" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <section class="history">
+            <img class="history__picture" src="../img/history.svg" alt="interesting foto" >
+            <div class="history__text">
+                <h2 class="history__title">Our <span class="color-yelow">History</span></h2>
+                <p class="history__subtitle">It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at.</p>
+                <p class="history__subtitle">It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at.</p>
+                <button class="btn">Learn more</button>
+            </div>
+        </section>
+        <section class="services">
+            <h2 class="services__title">Services We <span class="color-yelow">Provide</span></h2>
+            <div class="services__group">
+                <div class="services__group-item">
+                    <img class="services__item-icn" src="../icon/services-icn1.svg" alt="">
+                    <h3 class="servises__item-title">Hair Cut</h3>
+                    <p class="services__item-subtitle">long established fact that a reacted
+                    by the readable content of hen looking at.</p>
+                </div>
+                <div class="services__group-item">
+                    <img class="services__item-icn" src="../icon/services-icn2.svg" alt="">
+                    <h3 class="servises__item-title">Beard Cut</h3>
+                    <p class="services__item-subtitle">long established fact that a reacted
+                    by the readable content of hen looking at.</p>
+                </div>
+                <div class="services__group-item">
+                    <img class="services__item-icn" src="../icon/services-icn3.svg" alt="">
+                    <h3 class="servises__item-title">Facial Pack</h3>
+                    <p class="services__item-subtitle">long established fact that a reacted
+                    by the readable content of hen looking at.</p>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <h2 class="gallery__title">Our <span class="color-yelow">Gallery</span></h2>
+            <div class="gallery__group">
+                <div class="gallery__row">
+                    <div class="gallery__square">
+                        <div class="gallery__picture first">
+                            <div class="gallery__picture-fil"></div>
+                        </div>
+                    </div>
+                    <div class="gallery__square">
+                        <div class="gallery__picture second">
+                            <div class="gallery__picture-fil"></div>
+                        </div>
+                    </div>
+                    <div class="gallery__square">
+                        <div class="gallery__picture third">
+                            <div class="gallery__picture-fil"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__row">
+                    <div class="gallery__square">
+                        <div class="gallery__picture fourth">
+                            <div class="gallery__picture-fil"></div>
+                        </div>
+                    </div>
+                    <div class="gallery__square">
+                        <div class="gallery__picture fifth">
+                            <div class="gallery__picture-fil"></div>
+                        </div>
+                    </div>
+                    <div class="gallery__square">
+                        <div class="gallery__picture sixth">
+                            <div class="gallery__picture-fil"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">View All</button>
+        </section>
+        <section class="conteiner">
+            <div class="logo">
+                <img class="logo-picture" src="../icon/logo.svg" alt="logo">
+                <div class="name-logo">arber</div>
+            </div>
+            <p class="conteiner__text">It is a long established fact that a reader will be distracted by the readable </p>
+            <div class="conteiner__group">
+                <div class="facebook icn">
+                    <svg class="facebook-svg" xmlns="http://www.w3.org/2000/svg" width="17" height="33" viewbox="0 0 19 38" fill="currentColor">
+                        <path d="M15.5312 6.30958H19V0.267583C18.4016 0.18525 16.3434 0 13.9464 0C8.94512 0 5.51908 3.14608 5.51908 8.92842V14.25H6.10352e-05V21.0045H5.51908V38H12.2857V21.0061H17.5815L18.4221 14.2516H12.2841V9.59817C12.2857 7.64592 12.8113 6.30958 15.5312 6.30958Z"/>
+                      </svg>
+                </div>
+                <div class="twiter icn">
+                    <svg class="twiter-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewbox="0 0 32 26" fill="currentColor">
+                        <path d="M31.6923 3.0484C30.5137 3.56538 29.2579 3.90806 27.9486 4.07444C29.2955 3.27025 30.3236 2.00652 30.8069 0.483308C29.5511 1.23204 28.1645 1.7609 26.6869 2.05604C25.4944 0.786366 23.7949 0 21.9409 0C18.3439 0 15.448 2.91965 15.448 6.4989C15.448 7.0139 15.4916 7.5091 15.5985 7.98052C10.197 7.71708 5.4174 5.12821 2.20657 1.1845C1.64602 2.15706 1.31721 3.27025 1.31721 4.46862C1.31721 6.71877 2.47596 8.7134 4.20319 9.86819C3.15932 9.84838 2.13527 9.54533 1.26769 9.06796C1.26769 9.08777 1.26769 9.11352 1.26769 9.13927C1.26769 12.2966 3.51982 14.9192 6.47314 15.5233C5.94428 15.6679 5.36788 15.7372 4.76969 15.7372C4.35372 15.7372 3.9338 15.7134 3.53963 15.6263C4.38145 18.1993 6.77026 20.0909 9.61068 20.1523C7.40014 21.8816 4.5934 22.9234 1.5549 22.9234C1.02208 22.9234 0.511038 22.8997 0 22.8343C2.87805 24.6903 6.28893 25.75 9.96722 25.75C21.9231 25.75 28.4597 15.8462 28.4597 7.2615C28.4597 6.97429 28.4497 6.69698 28.4359 6.42165C29.7254 5.50654 30.8088 4.36363 31.6923 3.0484Z"/>
+                      </svg>
+                </div>
+                <div class="google icn">
+                    <svg class="google-svg" xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewbox="0 0 28 30" fill="currentColor">
+                        <path d="M24.3158 12.2804V8.59626H21.8596V12.2804H18.1754V14.7365H21.8596V18.4206H24.3158V14.7365H28V12.2804H24.3158ZM14.8596 16.4557L13.5087 15.4733C13.0175 15.1049 12.5263 14.6136 12.5263 13.754C12.5263 12.8944 13.1404 12.1576 13.7544 11.7892C15.3509 10.5611 16.9474 9.21028 16.9474 6.5086C16.9474 3.92972 15.3509 2.45608 14.4912 1.71925H16.5789L18.0526 0H10.4386C5.03509 0 2.33333 3.43851 2.33333 7.12262C2.33333 9.94711 4.54386 13.0172 8.47368 13.0172H9.45614C9.33333 13.3856 8.96491 13.9996 8.96491 14.6136C8.96491 15.8417 9.45614 16.3329 10.0702 17.0697C8.35088 17.1925 5.15789 17.5609 2.82456 19.0346C0.614035 20.3854 0 22.2275 0 23.5783C0 26.4028 2.57895 29.1045 8.10526 29.1045C14.7368 29.1045 17.9299 25.4204 17.9299 21.8591C17.9298 19.2802 16.5789 17.9293 14.8596 16.4557ZM5.52632 5.28056C5.52632 2.57888 7.12281 1.35084 8.8421 1.35084C12.0351 1.35084 13.7544 5.64897 13.7544 8.10505C13.7544 11.2979 11.1754 11.912 10.193 11.912C7.12281 11.912 5.52632 8.10505 5.52632 5.28056ZM9.94732 27.3852C5.89469 27.3852 3.31574 25.5432 3.31574 22.8415C3.31574 20.1398 5.77188 19.2801 6.50872 18.9117C8.10521 18.4205 10.1929 18.2977 10.5614 18.2977C10.9298 18.2977 11.1754 18.2977 11.421 18.2977C14.3684 20.3854 15.5964 21.245 15.5964 23.2099C15.5964 25.5432 13.2632 27.3852 9.94732 27.3852Z"/>
+                      </svg>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

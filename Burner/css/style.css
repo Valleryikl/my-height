@@ -1,0 +1,187 @@
+/* font-family: "M PLUS 1p", sans-serif; */
+.header {
+    padding: 2% 20%;
+    box-shadow: 2px 4px 6px 0 rgba(194, 192, 192, 0.25);
+    background: #f8f8f8;
+}
+.header:hover > .en {
+    color: red;
+}
+.lang {
+    float: right;
+    margin-top: -2.5%;
+    display: flex;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 120%;
+    color: #c4c4c4;
+}
+.en,
+.ru {
+    transition: all .2s ease-in-out;
+}
+.lang .en:hover,
+.lang .ru:hover {
+    color: #000;
+    border-bottom: 2px solid black;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.logo {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.form {
+    display: flex;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.search {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 178%;
+    text-align: center;
+    width: 240px;
+    padding: 5px;
+    color: #111010;
+    background-color: #ECECEC;
+    border: none;
+}
+.btn-submit {
+    background-color: #FFF000;
+}
+.btn-submit svg {
+    margin: 10px;
+}
+.downMusic {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 178%;
+    text-align: center;
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+.downMusic:hover {
+    transform: scale(1.1);
+}
+.nav__btn {
+    display: flex;
+    gap: 20px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+.btn {
+    border: 3px solid black;
+    padding: 5px 17px;
+    transition: all .2s ease-in-out;
+} 
+.btn-active {
+    background-color: #000;
+    color: #fff;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+.conteiner {
+    padding: 2% 20%;
+}
+.conteiner__row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 17px;
+}
+.play__row {
+    position: absolute;
+    right: -40px;
+    bottom: 70px;
+    transition: all .2s ease-in-out;
+}
+.play__row:hover {
+    transform: scale(1.1);
+}
+.conteiner__name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.name {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 178%;
+    text-align: center;
+    color: #000;
+}
+.line {
+    background-color: #000;
+    width: 40px;
+    height: 2px;
+}
+.item__img {
+    position: relative;
+}
+.item__img:hover .btn__play {
+    opacity: 1;
+}
+.btn__play {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.item__picture {
+    width: 270px;
+}
+.item__name {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #000;
+}
+.item__author {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "M PLUS 1p", sans-serif;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 20%;
+    background-color: #111111;
+    color: #fff;
+}
+.icon__group {
+    display: flex;
+    gap: 40px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.icon :hover {
+    color: #FFF000;
+    cursor: pointer;
+}
+.pol__conf {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
