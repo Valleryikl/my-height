@@ -92,9 +92,58 @@ body {
   color: #fff;
   border: 2px solid #fff;
 }
+.header .container .header__main {
+  display: flex;
+  padding-top: 125px;
+}
+.header .container .header__main .header__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  color: #fff;
+  width: 455px;
+}
+.header .container .header__main .caption {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.header .container .header__main .caption .color-1 {
+  background: linear-gradient(156.04deg, rgb(192, 183, 232), rgb(129, 118, 175));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .container .header__main .caption .color-2 {
+  color: rgb(192, 183, 232);
+}
+.header .container .header__main .header__main-btn {
+  margin-top: 32px;
+  display: flex;
+  position: relative;
+  width: 260px;
+}
+.header .container .header__main .header__main-btn .btn-decor {
+  position: absolute;
+  top: 6px;
+  left: 220px;
+  transition: all 0.3s ease-in-out;
+}
+.header .container .header__main .header__main-btn:hover .btn-decor {
+  left: 260px;
+}
 
 .simple-btn {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  border-radius: 40px;
   background: linear-gradient(90deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
   color: #343045;
   padding: 17px 38px;
+}
+
+.p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }/*# sourceMappingURL=main.css.map */

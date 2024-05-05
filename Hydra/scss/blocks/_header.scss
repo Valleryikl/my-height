@@ -63,5 +63,50 @@
                 border: 2px solid #fff;
             }
         }
+
+        .header__main {
+            display: flex;
+            padding-top: 125px;
+
+            .header__main-text {
+                display: flex;
+                flex-direction: column;
+                gap: 35px;
+                color: #fff;
+                width: 455px;
+            }
+
+            .caption {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 48px;
+
+                .color-1 {
+                    background: linear-gradient(156.04deg, rgb(192, 183, 232), rgb(129, 118, 175));
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .color-2 {
+                    color: rgb(192, 183, 232);
+                }
+            }
+
+            .header__main-btn {
+                margin-top: 32px;
+                display: flex;
+                position: relative;
+                width: 260px;
+                .btn-decor {
+                    position: absolute;
+                    top: 6px;
+                    left: 220px;
+                    transition: all .3s ease-in-out;
+                }
+                &:hover .btn-decor {
+                    left: 260px;
+                }
+            }
+        }
     }
 }
