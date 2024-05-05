@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: 0;
+  color: inherit;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+button {
+  display: block;
+  border: none;
+  color: inherit;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  padding: 0 84px;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #302C42;
+}
+
+.header {
+  padding-top: 50px;
+}
+.header .container .header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header .container .logo .img-logo {
+  transition: all 0.4s ease-in-out;
+}
+.header .container .logo:hover .img-logo {
+  transform: rotate(360deg);
+}
+.header .container .header__nav-links {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+.header .container .header__nav-links a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: all 0.2s ease-in-out;
+}
+.header .container .header__nav-links a:hover {
+  border-bottom: 1px solid #fff;
+}
+.header .container .header__nav-btn {
+  display: flex;
+  gap: 38px;
+}
+.header .container .header__nav-btn button {
+  border-radius: 40px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  transition: all 0.25s ease-in-out;
+}
+.header .container .header__nav-btn button:hover {
+  transform: scale(1.1);
+}
+.header .container .header__nav-btn .header__btn {
+  padding: 15px 36px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.simple-btn {
+  background: linear-gradient(90deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
+  color: #343045;
+  padding: 17px 38px;
+}/*# sourceMappingURL=main.css.map */
