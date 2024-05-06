@@ -6,4 +6,8 @@
     background: linear-gradient(90.00deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
     color: #343045;
     padding: 17px 38px;
+    transition: all .3s ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
 }

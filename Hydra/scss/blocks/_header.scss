@@ -108,16 +108,8 @@
                     transition: all .3s ease-in-out;
                 }
 
-                .simple-btn {
-                    transition: all .3s ease-in-out;
-                }
-
                 &:hover .btn-decor {
                     left: 260px;
-                }
-
-                &:hover .simple-btn {
-                    transform: scale(1.03);
                 }
             }
 
@@ -159,6 +151,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 2px;
+
                 .title {
                     font-size: 24px;
                     font-weight: 700;

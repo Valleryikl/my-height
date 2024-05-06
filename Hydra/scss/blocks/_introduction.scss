@@ -1,0 +1,47 @@
+.introduction {
+    position: relative;
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        .introduction__groupe {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            .introduction__groupe-title {
+                position: relative;
+                .title-decor {
+                    position: absolute;
+                    top: 17px;
+                    right: -220px;
+                    transition: all .3s ease-in-out;
+                }
+                &:hover .title-decor {
+                    right: -300px;
+                }
+            }
+            &.caption {
+                .text {
+                    width: 655px;
+                }
+            }
+            .text {
+                width: 630px;
+            }
+        }
+        .introduction__groupe.desc {
+            .about-text {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .simple-btn {
+                    align-self: flex-start;
+                }
+                .h2.title {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+    }
+}

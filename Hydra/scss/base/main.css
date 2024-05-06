@@ -131,14 +131,8 @@ body {
   left: 220px;
   transition: all 0.3s ease-in-out;
 }
-.header .container .header__main .header__main-btn .simple-btn {
-  transition: all 0.3s ease-in-out;
-}
 .header .container .header__main .header__main-btn:hover .btn-decor {
   left: 260px;
-}
-.header .container .header__main .header__main-btn:hover .simple-btn {
-  transform: scale(1.03);
 }
 .header .container .header__main .header__main-picture {
   width: 500px;
@@ -210,6 +204,59 @@ body {
   left: 0;
 }
 
+.vector-5 {
+  bottom: 280px;
+}
+
+.vector-6 {
+  bottom: 0;
+  right: 0;
+}
+
+.introduction {
+  position: relative;
+}
+.introduction .container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.introduction .container .introduction__groupe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.introduction .container .introduction__groupe .introduction__groupe-title {
+  position: relative;
+}
+.introduction .container .introduction__groupe .introduction__groupe-title .title-decor {
+  position: absolute;
+  top: 17px;
+  right: -220px;
+  transition: all 0.3s ease-in-out;
+}
+.introduction .container .introduction__groupe .introduction__groupe-title:hover .title-decor {
+  right: -300px;
+}
+.introduction .container .introduction__groupe.caption .text {
+  width: 655px;
+}
+.introduction .container .introduction__groupe .text {
+  width: 630px;
+}
+.introduction .container .introduction__groupe.desc .about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.introduction .container .introduction__groupe.desc .about-text .simple-btn {
+  align-self: flex-start;
+}
+.introduction .container .introduction__groupe.desc .about-text .h2.title {
+  margin-bottom: 12px;
+}
+
 .simple-btn {
   font-size: 12px;
   font-weight: 700;
@@ -218,10 +265,26 @@ body {
   background: linear-gradient(90deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
   color: #343045;
   padding: 17px 38px;
+  transition: all 0.3s ease-in-out;
+}
+.simple-btn:hover {
+  transform: scale(1.05);
 }
 
 .p {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.h2-light {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
 }/*# sourceMappingURL=main.css.map */
