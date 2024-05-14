@@ -1,0 +1,26 @@
+.caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    .caption__title {
+        position: relative;
+
+        .h2.title {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .title-decor {
+            position: absolute;
+            top: 17px;
+            right: -250px;
+        }
+    }
+
+    .text {
+        width: 655px;
+    }
+}
