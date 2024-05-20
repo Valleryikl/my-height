@@ -205,6 +205,7 @@ body {
 }
 
 .vector-5 {
+  width: 1350px;
   bottom: 280px;
 }
 
@@ -332,4 +333,64 @@ body {
 }
 .caption .text {
   width: 655px;
+}
+
+.techno {
+  color: #fff;
+  margin-top: 114px;
+}
+.techno .container .techno__picture {
+  text-align: center;
+  padding-top: 108px;
+  padding-bottom: 108px;
+  width: 1280px;
+  background-image: url(../../img/techno-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 54px;
+}
+.techno .container .techno__picture .techno__picture-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.techno .container .techno__picture .techno__picture-subtitle {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+}
+.techno .container .techno__picture .down {
+  position: absolute;
+  bottom: -50px;
+  left: 586px;
+  width: 100px;
+  height: 100px;
+  background-image: url(../../img/down-backg.png);
+}
+.techno .container .techno__picture .down .down-sing {
+  animation: bang infinite 3s;
+}
+@keyframes bang {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.3);
+  }
+}
+.techno .container .techno__parteners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 30px;
 }/*# sourceMappingURL=main.css.map */
