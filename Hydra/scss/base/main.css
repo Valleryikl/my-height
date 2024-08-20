@@ -393,4 +393,27 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 0 30px;
+  margin-bottom: 84px;
+}
+
+.build_steps-group {
+  display: flex;
+  justify-content: space-between;
+}
+.build_steps-group .build_steps-item {
+  font-family: "Montserrat";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.build_steps-group .build_steps-item .subnumber {
+  display: flex;
+  width: 190px;
+  height: 64px;
+}
+.build_steps-group .build_steps-item .subnumber img {
+  width: 27.92px;
+  height: 22.33px;
 }/*# sourceMappingURL=main.css.map */
